@@ -1,0 +1,13 @@
+.carousel-inner{
+    height: 40em;
+}
+
+.carousel-inner img{
+    height: 37em;
+}
+
+.carousel-indicators{
+  background-color: #f2c1c1;
+  
+  border-radius: 10px;
+}
