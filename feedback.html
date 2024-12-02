@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <form id="feedbackForm">
+            <label for="rating">Rating:</label>
+            <div id="starRating">
+                <span data-value="1">☆</span>
+                <span data-value="2">☆</span>
+                <span data-value="3">☆</span>
+                <span data-value="4">☆</span>
+                <span data-value="5">☆</span>
+            </div>
+            <input type="hidden" id="rating" name="rating" required>
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here"></textarea>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <section id="feedbackDisplay">
+            <h2>User Feedback:</h2>
+            <!-- Feedback submissions will appear here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Flower Shop. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
