@@ -1,7 +1,7 @@
 
   body {
     
-    font-family: "kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     
@@ -16,6 +16,28 @@ body::before {
     height: 100%;
     z-index: -1;
     backdrop-filter: blur(1px);
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3;
+  margin-left: 40px;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+.logo{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f2c1c1;
+  height: 8vh;
 }
 main {
 
@@ -32,6 +54,7 @@ main {
 main > * {
   flex-shrink: 1;
 }
+
 .top {
   text-align: center;
 }
@@ -42,8 +65,8 @@ main > * {
   
  
   list-style: none;
-  background: #f2c1c1;
-  border-radius: 10px;
+ 
+
 }
 
 .litop {
