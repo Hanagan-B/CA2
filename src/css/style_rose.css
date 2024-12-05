@@ -121,3 +121,9 @@ form button:hover {
   .litop img{
     height: 80px;
   }
+  header h2 {
+    text-align: center; /* Centraliza horizontalmente */
+    font-size: 2.5rem; /* Torna o título mais chamativo */
+    color: #333; /* Harmoniza com as cores existentes */
+    margin: 1rem 0; /* Adiciona espaço acima e abaixo */
+}
