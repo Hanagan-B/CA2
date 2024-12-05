@@ -53,9 +53,68 @@
             </ul>
         </section>
     </main>
+     <!--Footer-->
     <footer>
+        <div id="footer_content">
+            <div id="footer_contents">
+                <a href="./index.html"><img src="./src/images/1 (1).png" alt="logo"></a>
+            </div>
+
+            <ul class="footer_list">
+                <li>
+                    <h3 class="textlist">Flower Shop</h3>
+                </li>
+                <li>
+                    <a href="./whoarewe.html" class="footer-link">Who are we?</a>
+                </li>
+                <li>
+                    <a href="./contact.html"
+                        class="footer-link">Contact Us</a>
+                </li>
+                <li>
+                    <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer_list">
+                <li>
+                    <h3 class="textlist">Shop</h3>
+                </li>
+                <li>
+                    <a href="./products.html" class="footer-link">Our Products</a>
+                </li>
+                <li>
+                    <a href="./stores.html" class="footer-link">Our Stores</a>
+                </li>
+
+
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3 class="textlist">Garden Newsletter</h3>
+                <p class="textlist">
+                    Sign up to hear about exclusive offers, new products & more.
+                </p>
+
+                <div id="input_group">
+                    <input type="email" placeholder="Enter Email" id="sub-email" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                    <button>
+                        <i class="fa-solid fa-envelope" onclick="return validateForm()"></i>
+
+                    </button>
+                    <span id="submit-error"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
         <p>&copy; 2024 Your Flower Shop. All rights reserved.</p>
     </footer>
+     <!--Footer end-->
     <script src="/src/JS/scripts_rose.js"></script>
 </body>
 </html>
