@@ -167,7 +167,8 @@ footer {
 #footer_subscribe {
   display: flex;
   flex-direction: column;
-
+  gap: 0.8rem;
+  list-style: none;
   margin-top: 2rem;
 }
 
