@@ -65,7 +65,7 @@ body {
   height: 500px;
 }
 
-/* ABOUT US PAGE
+/* WHO ARE WE PAGE
 -------------------------------------------------- */
 Section{
   padding: 2rem 9%;
@@ -160,11 +160,15 @@ Section{
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
+
+  .carousel-inner img{
+    
+  }
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+    
   }
 
   .featurette-heading {
