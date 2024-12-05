@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,#
+    <meta name="viewport" content="width=device-width,
     initial-scale=1.0">
     <title>Garden to Home - Flower Shop</title>
 
@@ -45,11 +45,6 @@
         <div class="top">
             <nav>
                 <a class="logo" href="/index.html">Garden to Home</a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
                 <ul class="navbars">
 
                     <li class="litop"><a href="./index.html" class="topping">Home</a></li>
@@ -61,8 +56,39 @@
 
 
                 </ul>
+            <button id="mobile-btn"> <!--mobile button-->
+            <i class="fa-solid fa-bars"></i>
+        </button>
             </nav>
         </div>
+        
+       
+
+        <div id="mobile-menu"> 
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="./index.html"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="./products.html"> Our products </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./contact.html"> Contact Us </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./whoAreWe.html"> Who are we </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./stores.html"> Stores </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./feedback.html"> Feedback </a>
+                </li>
+            </ul>
+
+        </div> 
         <!--Nav bar top end-->
     </header>
     <!--Carousel indicators-->
@@ -173,27 +199,6 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-                        class="text-body-secondary">Checkmate.</span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-                    intended to be actually read, simply here to give you a better view of what this would look like
-                    with some actual content. Your content.</p>
-            </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                        fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                </svg>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
 
 
     </div>
@@ -214,8 +219,7 @@
                     <a href="./whoarewe.html" class="footer-link">Who are we?</a>
                 </li>
                 <li>
-                    <a href="./contact.html"
-                        class="footer-link">Contact Us</a>
+                    <a href="./contact.html" class="footer-link">Contact Us</a>
                 </li>
                 <li>
                     <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
@@ -264,6 +268,9 @@
         </div>
     </footer>
     <!--Footer end-->
+    <!--JS Nav Bar All pages-->
+    <script src="./src/JS/mobile-nav-js.js"></script>
+
     <!--JS Bruna-->
     <script src="./src/JS/index.js"></script>
 

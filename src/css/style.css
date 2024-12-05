@@ -24,6 +24,7 @@ body::before {
   backdrop-filter: blur(1px);
 }
 
+
 a {
   color: #fff;
   text-decoration: none;
@@ -31,17 +32,15 @@ a {
   margin-left: 40px;
 }
 
-a:hover {
+a:hover{
   opacity: 0.7;
 }
-
-.logo {
+.logo{
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-
-nav {
+nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,7 +64,7 @@ nav {
 
 }
 
-.litop {
+ .litop {
   margin-top: 11px;
   display: inline-block;
 }
@@ -92,18 +91,24 @@ li a.topping:hover {
 
 }
 
-.mobile-menu {
+#mobile-btn{
   display: none;
-  cursor: pointer;
-}
+}  
 
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
+#mobile-menu{
+  display: none;
 }
-
+.nav-item{
+  list-style: none;
+}
+.nav-item a{
+  color: #cf3e4d;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 /*footer*/
 footer {
   width: 100%;
@@ -215,33 +220,57 @@ footer {
 
 }
 /*responsive*/
+  
+
+@media screen and (max-width: 1170px){
+  .navbars {
+   display:none
+  }
+
+   #mobile-btn{
+       display: block;
+       border: none;
+       background-color: transparent;
+       font-size: 1.5rem;
+       cursor: pointer;
+   }
+   #mobile-menu.active{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   #mobile-navbars{
+       display:flex;
+       flex-direction: column;
+       gap: 12px;
+       margin: 12px 0px;
+       
+   }
+   #mobile-menu.active .nav-item {
+       list-style: none;
+       text-align: center;
+   }
+
+  }
+
 @media(max-width: 750px) {
    
-  .navbar{
-      width: 90%;
-     
-  }
-  .litop{
-      
-      display: inline-block;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 8px;
-  }
-  li .topping {
-      font-size: 10px;
-      padding: 20px 8px;
-  }
   #footer_content {
+    height: 100%;
     grid-template-columns: repeat(1, 1fr) ;
     gap: 2rem;
     
+    }
+    #footer_contents img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .footer_list{
         margin-left: 2rem;
     }
     #footer_subscribe {
-        margin-left: 2rem;
+        margin-left: 4rem;
         margin-right: 2rem;
     }
 
