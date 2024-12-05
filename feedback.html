@@ -5,30 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
+    <!--CSS font-awesome - for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--CSS all pages-->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!--CSS Student x23350822 - Raimunda Rosimere do Nascimento-->
     <link rel="stylesheet" href="/src/css/style_rose.css">
     
     
 </head>
 <body>
     <header>
-        <!--Nav bar top-->
-        <div class="top">
-            <nav>
-                <a class="logo" href="/index.html">Garden to Home</a>
-                <ul class="navbars">
-
-                    <li class="litop"><a href="./index.html" class="topping">Home</a></li>
-                    <li class="litop"><a href="./products.html" class="topping">Our Products</a></li>
-                    <li class="litop"><a href="./contact.html" class="topping">Contact us</a></li>
-                    <li class="litop"><a href="./whoarewe.html" class="topping">Who are we?</a></li>
-                    <li class="litop"><a href="./stores.html" class="topping">Stores</a></li>
-                    <li class="litop"><a href="./feedback.html" class="topping">Feedback</a></li>
-
-
-                </ul>
-            </nav>
-        </div>
-        <!--Nav bar top end-->
+               <!--Nav bar top-->
+               <div class="top">
+                <nav>
+                    <a class="logo" href="/index.html">Garden to Home</a>
+                    <div class="mobile-menu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <ul class="navbars">
+    
+                        <li class="litop"><a href="./index.html" class="topping">Home</a></li>
+                        <li class="litop"><a href="./products.html" class="topping">Our Products</a></li>
+                        <li class="litop"><a href="./contact.html" class="topping">Contact us</a></li>
+                        <li class="litop"><a href="./whoarewe.html" class="topping">Who are we?</a></li>
+                        <li class="litop"><a href="./stores.html" class="topping">Stores</a></li>
+                        <li class="litop"><a href="./feedback.html" class="topping">Feedback</a></li>
+    
+    
+                    </ul>
+                </nav>
+            </div>
+            <!--Nav bar top end-->
     </header>
     <main>
         <form id="feedbackForm">
@@ -53,10 +67,10 @@
             <!-- Feedback submissions will appear here -->
         </section>
     </main>
-</footer>
+<!--Footer-->
 <div id="footer_content">
     <div id="footer_contents">
-        <a href="./index.html"><img src="./src/images/1 (1).png" alt="logo"></a>
+        <a href="./index.html"><img src="./src/images/logo.png" alt="logo"></a>
     </div>
 
     <ul class="footer_list">
@@ -64,11 +78,10 @@
             <h3 class="textlist">Flower Shop</h3>
         </li>
         <li>
-            <a href=""
-                class="footer-link">About Us</a>
+            <a href="./whoarewe.html" class="footer-link">Who are we?</a>
         </li>
         <li>
-            <a href="./contact-us.html"
+            <a href="./contact.html"
                 class="footer-link">Contact Us</a>
         </li>
         <li>
@@ -79,20 +92,15 @@
 
     <ul class="footer_list">
         <li>
-            <h3 class="textlist">Products</h3>
+            <h3 class="textlist">Shop</h3>
         </li>
         <li>
-            <a href="https://honkaiimpact3.hoyoverse.com/global/en-us/fab" class="footer-link">Honkai Impact
-                3rd</a>
+            <a href="./products.html" class="footer-link">Our Products</a>
         </li>
         <li>
-            <a href="https://zenless.hoyoverse.com/ua?&utm_source=ua&utm_medium=google&utm_campaign=ZZZ-EU-PC-1-new-search-brand-20240704-Pixel_Exact_Match&hoyotrace_channel=ga_channel&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595j4xDryTG3C-jAJFcO9-X-mw2B3enHRwwioM3G9h0sYSUZOOutVaCEaAlMkEALw_wcB"
-                class="footer-link">Zenless Zone Zero</a>
+            <a href="./stores.html" class="footer-link">Our Stores</a>
         </li>
-        <li>
-            <a href="https://hsr.hoyoverse.com/ua2?utm_source=EU_google_EU_search_UA2_brand&hoyotrace_channel=ga_channel&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595gbkAWluO5CkqGPqe5uUaV1IN3pkYMjJ0sqyF0lU5y9dFxhmEUTWVEaAtZMEALw_wcB"
-                class="footer-link">Honkai StarRail</a>
-        </li>
+
 
     </ul>
 
@@ -103,11 +111,13 @@
         </p>
 
         <div id="input_group">
-            <input type="email" id="email">
-            <span id="email2-error"></span>
+            <input type="email" placeholder="Enter Email" id="sub-email" onkeyup="validateEmail()">
+            <span id="email-error"></span>
             <button>
-                <i class="fa-solid fa-envelope" onclick="alert('Thank you for your subscription')"></i>
+                <i class="fa-solid fa-envelope" onclick="return validateForm()"></i>
+
             </button>
+            <span id="submit-error"></span>
 
         </div>
 
@@ -116,9 +126,11 @@
 </div>
 
 <div id="footer_copyright">
-    2024 Your Flower Shop. All rights reserved
+    &#169
+    All Rights Reserved.
 </div>
 </footer>
+<!--Footer end-->
     <script src="/src/JS/scripts_rose.js"></script>
 </body>
 </html>

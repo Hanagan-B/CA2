@@ -1,40 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-/* Global styles */
-* {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Header */
-header {
-    background-color: #fffefe;
-    color: #333;
-    padding: 1rem;
-    text-align: center;
-}
-
-header nav a {
-    color: #333;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    display: flex
-;
-    justify-content: space-around;
-    align-items: center;
-    background: #f2c1c1;
-    height: 8vh;
-}
 /* Forms */
 form {
     display: flex;
@@ -110,46 +76,6 @@ form button:hover {
     color: #333;
 }
 
-/* Footer */
-footer {
-    width: 100%;
-    color: black;
-  
-   
-  
-  }
-  
-  #footer_content {
-    height: 250px;
-    background-color: #f2c1c1;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-   
-   
-  }
-  
-  #footer_contents img {
-    margin-bottom: 0.75rem;
-    margin-top: 2rem;
-    margin-left: 3.5rem;
-    height: 165px;
-    border-radius: 10%;
-  
-  
-  }
-  
-  
-  
-  .footer_list {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    list-style: none;
-    margin-top: 2rem;
-   
-  }
-  
 
 /* Responsive design */
 @media (max-width: 768px) {
