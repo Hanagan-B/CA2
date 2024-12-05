@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     <link rel="stylesheet" href="/src/css/style_rose.css">
+    
+    
 </head>
 <body>
     <header>
-        <h1>Feedback</h1>
-        <nav>
-
-            <ul class="navbars">
-
-                <li class="litop"><a href="./index.html" class="topping">Home</a></li>
-                <li class="litop"><a href="./characters2.html" class="topping">Our Products</a></li>
-                <li class="litop"><a href="./contact.html" class="topping">Contact us</a></li>
-                <li class="litop"><a href="./contact.html" class="topping">Who are we?</a></li>
-                <li class="litop"><a href="./contactUs.html" class="topping">Stores</a></li>
-
-
-            </ul>
-        </nav>
+        <!--Nav bar top-->
+        <div class="top">
+            <nav>
+                <a class="logo" href="/index.html">Garden to Home</a>
+                <ul class="navbars">
+    
+                    <li class="litop"><a href="./index.html" class="topping">Home</a></li>
+                    <li class="litop"><a href="./products.html" class="topping">Our Products</a></li>
+                    <li class="litop"><a href="./contact.html" class="topping">Contact us</a></li>
+                    <li class="litop"><a href="./whoarewe.html" class="topping">Who are we?</a></li>
+                    <li class="litop"><a href="./stores.html" class="topping">Stores</a></li>
+                    <li class="litop"><a href="./feedback.html" class="topping">Feedback</a></li>
+    
+    
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <form id="feedbackForm">
@@ -46,9 +51,72 @@
             <!-- Feedback submissions will appear here -->
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Your Flower Shop. All rights reserved.</p>
-    </footer>
+</footer>
+<div id="footer_content">
+    <div id="footer_contents">
+        <a href="./index.html"><img src="./src/images/1 (1).png" alt="logo"></a>
+    </div>
+
+    <ul class="footer_list">
+        <li>
+            <h3 class="textlist">Flower Shop</h3>
+        </li>
+        <li>
+            <a href=""
+                class="footer-link">About Us</a>
+        </li>
+        <li>
+            <a href="./contact-us.html"
+                class="footer-link">Contact Us</a>
+        </li>
+        <li>
+            <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
+        </li>
+
+    </ul>
+
+    <ul class="footer_list">
+        <li>
+            <h3 class="textlist">Products</h3>
+        </li>
+        <li>
+            <a href="https://honkaiimpact3.hoyoverse.com/global/en-us/fab" class="footer-link">Honkai Impact
+                3rd</a>
+        </li>
+        <li>
+            <a href="https://zenless.hoyoverse.com/ua?&utm_source=ua&utm_medium=google&utm_campaign=ZZZ-EU-PC-1-new-search-brand-20240704-Pixel_Exact_Match&hoyotrace_channel=ga_channel&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595j4xDryTG3C-jAJFcO9-X-mw2B3enHRwwioM3G9h0sYSUZOOutVaCEaAlMkEALw_wcB"
+                class="footer-link">Zenless Zone Zero</a>
+        </li>
+        <li>
+            <a href="https://hsr.hoyoverse.com/ua2?utm_source=EU_google_EU_search_UA2_brand&hoyotrace_channel=ga_channel&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595gbkAWluO5CkqGPqe5uUaV1IN3pkYMjJ0sqyF0lU5y9dFxhmEUTWVEaAtZMEALw_wcB"
+                class="footer-link">Honkai StarRail</a>
+        </li>
+
+    </ul>
+
+    <div id="footer_subscribe">
+        <h3 class="textlist">Garden Newsletter</h3>
+        <p class="textlist">
+            Sign up to hear about exclusive offers, new products & more.
+        </p>
+
+        <div id="input_group">
+            <input type="email" id="email">
+            <span id="email2-error"></span>
+            <button>
+                <i class="fa-solid fa-envelope" onclick="alert('Thank you for your subscription')"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="footer_copyright">
+    2024 Your Flower Shop. All rights reserved
+</div>
+</footer>
     <script src="/src/JS/scripts_rose.js"></script>
 </body>
 </html>

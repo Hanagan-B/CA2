@@ -112,11 +112,44 @@ form button:hover {
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #eec9c0;
-    color: #333;
-}
+    width: 100%;
+    color: black;
+  
+   
+  
+  }
+  
+  #footer_content {
+    height: 250px;
+    background-color: #f2c1c1;
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+   
+   
+  }
+  
+  #footer_contents img {
+    margin-bottom: 0.75rem;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    height: 165px;
+    border-radius: 10%;
+  
+  
+  }
+  
+  
+  
+  .footer_list {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    list-style: none;
+    margin-top: 2rem;
+   
+  }
+  
 
 /* Responsive design */
 @media (max-width: 768px) {
