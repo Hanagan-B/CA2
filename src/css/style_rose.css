@@ -122,8 +122,13 @@ form button:hover {
     height: 80px;
   }
   header h2 {
-    text-align: center; /* Centraliza horizontalmente */
-    font-size: 2.5rem; /* Torna o título mais chamativo */
-    color: #333; /* Harmoniza com as cores existentes */
-    margin: 1rem 0; /* Adiciona espaço acima e abaixo */
+    text-align: center; 
+    font-size: 2.5rem; 
+    color: #333; 
+    margin: 1rem 0; 
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Reduces font size for smaller devices */
+    }
 }
