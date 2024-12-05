@@ -10,7 +10,7 @@
 
 /* Header */
 header {
-    background-color: #eec9c0;
+    background-color: #fffefe;
     color: #333;
     padding: 1rem;
     text-align: center;
@@ -27,6 +27,14 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+nav {
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+    background: #f2c1c1;
+    height: 8vh;
+}
 /* Forms */
 form {
     display: flex;
@@ -87,7 +95,7 @@ form button:hover {
 
 /* Feedback display */
 #feedbackDisplay {
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 1rem;
     border-top: 2px solid #ddd;
 }
@@ -119,7 +127,7 @@ footer {
 }
 /* Styling for the company info section */
 #companyInfo {
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 20px;
     max-width: 600px;
     background-color: #f9f9f9;
@@ -146,3 +154,11 @@ footer {
 #companyInfo ul li {
     margin-bottom: 0.5rem;
 }
+
+.litop {
+    margin-top: 11px;
+    display: inline-block;
+  }
+  .litop img{
+    height: 80px;
+  }
