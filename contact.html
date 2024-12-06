@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Student x23350822 - Raimunda Rosimere do Nascimento-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,18 +21,14 @@
 
     <link rel="stylesheet" href="/src/css/style_rose.css">
 </head>
+
 <body>
     <header>
-    
+
         <!--Nav bar top-->
         <div class="top">
             <nav>
                 <a class="logo" href="/index.html">Garden to Home</a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
                 <ul class="navbars">
 
                     <li class="litop"><a href="./index.html" class="topping">Home</a></li>
@@ -43,7 +40,38 @@
 
 
                 </ul>
+                <button id="mobile-btn"> <!--mobile button-->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </nav>
+        </div>
+
+
+
+        <div id="mobile-menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="./index.html"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="./products.html"> Our products </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./contact.html"> Contact Us </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./whoAreWe.html"> Who are we </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./stores.html"> Stores </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./feedback.html"> Feedback </a>
+                </li>
+            </ul>
+
         </div>
         <!--Nav bar top end-->
         <h2>Contact Us</h2>
@@ -53,13 +81,13 @@
         <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your name" required>
-            
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Your email address" required>
-            
+
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
-            
+
             <button type="submit">Send Message</button>
         </form>
 
@@ -78,7 +106,7 @@
                 <li>Sunday: Closed</li>
             </ul>
         </section>
-    
+
     </main>
     <!--Footer-->
     <div id="footer_content">
@@ -94,8 +122,7 @@
                 <a href="./whoarewe.html" class="footer-link">Who are we?</a>
             </li>
             <li>
-                <a href="./contact.html"
-                    class="footer-link">Contact Us</a>
+                <a href="./contact.html" class="footer-link">Contact Us</a>
             </li>
             <li>
                 <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
@@ -142,8 +169,17 @@
         &#169
         All Rights Reserved.
     </div>
-</footer>
-<!--Footer end-->
+    </footer>
+    <!--Footer end-->
+
+    <!--JS Nav Bar All pages Student x23358297-->
+    <script src="./src/JS/mobile-nav-js.js"></script>
+
+    <!--JS Student x23358297 - Bruna Rodrigues de Oliveira-->
+    <script src="./src/JS/index.js"></script>
+
+    <!--JS Student x23350822 - Raimunda Rosimere do Nascimento-->
     <script src="/src/JS/scripts_rose.js"></script>
 </body>
+
 </html>
