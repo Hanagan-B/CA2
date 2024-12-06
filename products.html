@@ -1,605 +1,649 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,#
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,#
         initial-scale=1.0">
-        <!--botao vanessa-->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Garden to Home - Flower Shop</title>
-        
-        <!--CSS vanessa-->
-        <link rel="stylesheet" href="./src/css/products.css">
-        <link rel="stylesheet" href="./src/css/style-vt.css">
+    <!--botao vanessa-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Garden to Home - Flower Shop</title>
 
-          <!--CSS all pages-->
-          <link rel="stylesheet" href="./src/css/style.css">
-          <link rel="stylesheet" href="./src/css/responsivo.css">
-  
-
+    <!--CSS vanessa-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/products.css">
+    <link rel="stylesheet" href="./src/css/style-vt.css">
 
 
 
 
-    </head>
+    <!--CSS all pages-->
+    <link rel="stylesheet" href="./src/css/style.css">
 
-    <body>
-    <header>
+
+
+
+
+
+</head>
+
+<body>
+    <div>
 
         <!--Nav bar top-->
         <div class="top">
             <nav>
                 <a class="logo" href="/index.html">Garden to Home</a>
                 <ul class="navbars">
-    
+
                     <li class="litop"><a href="./index.html" class="topping">Home</a></li>
                     <li class="litop"><a href="./products.html" class="topping">Our Products</a></li>
                     <li class="litop"><a href="./contact.html" class="topping">Contact us</a></li>
                     <li class="litop"><a href="./whoarewe.html" class="topping">Who are we?</a></li>
                     <li class="litop"><a href="./stores.html" class="topping">Stores</a></li>
                     <li class="litop"><a href="./feedback.html" class="topping">Feedback</a></li>
-    
-    
+
+
                 </ul>
+            <button id="mobile-btn"> <!--mobile button-->
+            <i class="fa-solid fa-bars"></i>
+        </button>
             </nav>
         </div>
-    </header>
+        
+       
+
+        <div id="mobile-menu"> 
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="./index.html"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="./products.html"> Our products </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./contact.html"> Contact Us </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./whoAreWe.html"> Who are we </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./stores.html"> Stores </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./feedback.html"> Feedback </a>
+                </li>
+            </ul>
+
+        </div> 
+        <!--Nav bar top end-->
+    </div>
+
     <main id="main-vt">
-        <div id="catalogo-view" >
+        <div id="catalogo-view">
 
         </div><!--final-->
 
-                <section id = "catalogo">
-                    <h2 class ="section-title">Online Flower Delivery </h2>
-                    <h3 class="section-subtitle"> Our Complete range </h3>
-                    <div id="products">
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat5.jpg" class="flowers-img" width="250px" >
-                            <h3 class = "flowers-title">Petal Poetry </h3>
-                            <span class = "flowers-description">A bouquet that speaks with petals.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                    
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat6.jpg" class="flowers-img" width="380px"  >
-                            <h3 class = "flowers-title">Blossom Breeze</h3>
-                            <span class = "flowers-description">Flowers that feel like a fresh breeze.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                        
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat7.jpg" class="flowers-img" width="330px"  >
-                            <h3 class = "flowers-title">Lush Embrace</h3>
-                            <span class = "flowers-description">A luxurious touch of nature’s finest blooms</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class="flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat8.jpg" class="flowers-img" width="300px" >
-                            <h3 class = "flowers-title">Sunset Blooms</h3>
-                            <span class = "flowers-description"> Flowers inspired by the colors of a setting sun.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                        
-                            <h3></h3>
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> 
-                                </button>
-                            </div>
-                        </div>    
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat9.jpg" class="flowers-img" width="250px" >
-                            <h3 class = "flowers-title">Dewdrop Dreams </h3>
-                            <span class = "flowers-description">Morning-fresh blooms with a dreamy touch.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                    
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat10.png" class="flowers-img" width="330px"  >
-                            <h3 class = "flowers-title">Eternal Bloom </h3>
-                            <span class = "flowers-description">Timeless elegance captured in petals</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                        
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class="flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat11.jpg" class="flowers-img" width="300px" >
-                            <h3 class = "flowers-title">Velvet Rose  </h3>
-                            <span class = "flowers-description"> Soft, velvety petals that evoke romance</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat12.PNG" class="flowers-img" width="400px" >
-                            <h3 class = "flowers-title">Whispering Lilies </h3>
-                            <span class = "flowers-description">A delicate fragrance that speaks to the soul.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                        
-                            <div class="flowers-price">
-                                <h4>€ 20,00</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat1.jpg" class="flowers-img" width="350px"  >
-                            <h3 class = "flowers-title">Golden Garden</h3>
-                            <span class = "flowers-description">Radiant blooms that bring sunshine indoors.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat2.jpg" class="flowers-img" width="380px"  >
-                            <h3 class = "flowers-title">Blossom & Blush </h3>
-                            <span class = "flowers-description">Soft, romantic arrangements full of charm.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class="flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat3.jpg" class="flowers-img" width="380px" >
-                            <h3 class = "flowers-title">Pure Serenity</h3>
-                            <span class = "flowers-description"> A peaceful bouquet of calming blooms</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat4.jpg" class="flowers-img" width="350px" >
-                            <h3 class = "flowers-title">Autumn Blush</h3>
-                            <span class = "flowers-description">Warm, earthy blooms for a fall-inspired touch.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat13.jpg" class="flowers-img" width="250px"  >
-                            <h3 class = "flowers-title">Paradise </h3>
-                            <span class = "flowers-description">A luxurious mix of soft and vibrant flowers.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                        
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>   
-                        <div class = "flowers">
-                            <div class="flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat14.jpg" class="flowers-img" width="300px" >
-                            <h3 class = "flowers-title">Secret Garden</h3>
-                            <span class = "flowers-description"> A hidden mix of wild, untamed beauty.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat15.PNG" class="flowers-img" width="450px"  >
-                            <h3 class = "flowers-title">Fairy Blossom </h3>
-                            <span class = "flowers-description">Enchanting, whimsical floral arrangements</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            
-                            <div class="flowers-price">
-                                <h4>€ 20,00</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class="flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat8.jpg" class="flowers-img"" >
-                            <h3 class = "flowers-title">Sunshine Symphony </h3>
-                            <span class = "flowers-description">A vibrant bouquet of sunflowers that radiates warmth and joy.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat16.jpg" class="flowers-img" width="400px" >
-                            <h3 class = "flowers-title">Harmonic Hydrangeas </h3>
-                            <span class = "flowers-description">Perfectly balanced blooms in soft tones</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat17.jpg" class="flowers-img" width="380px"  >
-                            <h3 class = "flowers-title">Moonlit Garden</h3>
-                            <span class = "flowers-description">Flowers that glow under the moonlight.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class=" flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-        
-                            <img src="./src/imagem/cat19.jpg" class="flowers-img" width="280px"  >
-                            <h3 class = "flowers-title">Tulip Temptation</h3>
-                            <span class = "flowers-description">A captivating bouquet of elegant tulips in every shade of spring.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> </button>
-                            </div>
-        
-                            
-                        </div>
-                        <div class = "flowers">
-                            <div class="flowers-heart">
-                                <i class="fa-solid fa-heart "></i>
-                            </div>
-                            <img src="./src/imagem/cat20.webp" class="flowers-img" width="400px" >
-                            <h3 class = "flowers-title">Eternal Garden </h3>
-                            <span class = "flowers-description"> A collection of preserved flowers that last a lifetime, bringing nature’s charm indoors.</span> 
-                            <div class=" flowers-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            <span>(100+)</span>
-                            </div>
-                            <div class="flowers-price">
-                                <h4>€ 20,00 EUR</h4>
-                                <button class = "btn-default">
-                                <i class="fa-solid fa-basket-shopping "></i> 
-                                </button>
-                            </div>
-                        </div>
-        
-                            
-                        </div>
-                        
-                    </div> 
-                </section>
+        <section id="catalogo">
+            <h2 class="section-title">Online Flower Delivery </h2>
+            <h3 class="section-subtitle"> Our Complete range </h3>
+            <div id="products">
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat5.jpg" class="flowers-img" width="250px">
+                    <h3 class="flowers-title">Petal Poetry </h3>
+                    <span class="flowers-description">A bouquet that speaks with petals.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="../src/images/cat6.jpg" class="flowers-img" width="380px">
+                    <h3 class="flowers-title">Blossom Breeze</h3>
+                    <span class="flowers-description">Flowers that feel like a fresh breeze.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat7.jpg" class="flowers-img" width="330px">
+                    <h3 class="flowers-title">Lush Embrace</h3>
+                    <span class="flowers-description">A luxurious touch of nature’s finest blooms</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class="flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat8.jpg" class="flowers-img" width="300px">
+                    <h3 class="flowers-title">Sunset Blooms</h3>
+                    <span class="flowers-description"> Flowers inspired by the colors of a setting sun.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <h3></h3>
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat9.jpg" class="flowers-img" width="250px">
+                    <h3 class="flowers-title">Dewdrop Dreams </h3>
+                    <span class="flowers-description">Morning-fresh blooms with a dreamy touch.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat10.png" class="flowers-img" width="330px">
+                    <h3 class="flowers-title">Eternal Bloom </h3>
+                    <span class="flowers-description">Timeless elegance captured in petals</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class="flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat11.jpg" class="flowers-img" width="300px">
+                    <h3 class="flowers-title">Velvet Rose </h3>
+                    <span class="flowers-description"> Soft, velvety petals that evoke romance</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat12.PNG" class="flowers-img" width="400px">
+                    <h3 class="flowers-title">Whispering Lilies </h3>
+                    <span class="flowers-description">A delicate fragrance that speaks to the soul.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat14.jpg" class="flowers-img" width="350px">
+                    <h3 class="flowers-title">Golden Garden</h3>
+                    <span class="flowers-description">Radiant blooms that bring sunshine indoors.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat2.jpg" class="flowers-img" width="380px">
+                    <h3 class="flowers-title">Blossom & Blush </h3>
+                    <span class="flowers-description">Soft, romantic arrangements full of charm.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class="flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat3.jpg" class="flowers-img" width="380px">
+                    <h3 class="flowers-title">Pure Serenity</h3>
+                    <span class="flowers-description"> A peaceful bouquet of calming blooms</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat4.jpg" class="flowers-img" width="350px">
+                    <h3 class="flowers-title">Autumn Blush</h3>
+                    <span class="flowers-description">Warm, earthy blooms for a fall-inspired touch.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat13.jpg" class="flowers-img" width="250px">
+                    <h3 class="flowers-title">Paradise </h3>
+                    <span class="flowers-description">A luxurious mix of soft and vibrant flowers.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class="flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat14.jpg" class="flowers-img" width="300px">
+                    <h3 class="flowers-title">Secret Garden</h3>
+                    <span class="flowers-description"> A hidden mix of wild, untamed beauty.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat13.jpg" class="flowers-img" width="300px">
+                    <h3 class="flowers-title">Fairy Blossom </h3>
+                    <span class="flowers-description">Enchanting, whimsical floral arrangements</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class="flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat8.jpg" class="flowers-img" width="300px">
+                    <h3 class="flowers-title">Sunshine Symphony </h3>
+                    <span class="flowers-description">A vibrant bouquet of sunflowers that radiates warmth and
+                        joy.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat16.jpg" class="flowers-img" width="300px">
+                    <h3 class="flowers-title">Harmonic Hydrangeas </h3>
+                    <span class="flowers-description">Perfectly balanced blooms in soft tones</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat17.jpg" class="flowers-img" width="380px">
+                    <h3 class="flowers-title">Moonlit Garden</h3>
+                    <span class="flowers-description">Flowers that glow under the moonlight.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class=" flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+
+                    <img src="./src/images/cat19.jpg" class="flowers-img" width="280px">
+                    <h3 class="flowers-title">Tulip Temptation</h3>
+                    <span class="flowers-description">A captivating bouquet of elegant tulips in every shade of
+                        spring.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i> </button>
+                    </div>
+
+
+                </div>
+                <div class="flowers">
+                    <div class="flowers-heart">
+                        <i class="fa-solid fa-heart "></i>
+                    </div>
+                    <img src="./src/images/cat20.webp" class="flowers-img" width="400px">
+                    <h3 class="flowers-title">Eternal Garden </h3>
+                    <span class="flowers-description"> A collection of preserved flowers that last a lifetime, bringing
+                        nature’s charm indoors.</span>
+                    <div class=" flowers-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="flowers-price">
+                        <h4>€ 20,00 EUR</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping "></i>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            </div>
+        </section>
     </main>
 
     <footer>
-                <!--Footer-->
-                <div id="footer_content">
-                    <div id="footer_contents">
-                        <a href="./index.html"><img src="./src/images/logo.png" alt="logo"></a>
-                    </div>
-        
-                    <ul class="footer_list">
-                        <li>
-                            <h3 class="textlist">Flower Shop</h3>
-                        </li>
-                        <li>
-                            <a href=""
-                                class="footer-link">About Us</a>
-                        </li>
-                        <li>
-                            <a href="./contact-us.html"
-                                class="footer-link">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
-                        </li>
-        
-                    </ul>
-        
-                    <ul class="footer_list">
-                        <li>
-                            <h3 class="textlist">Products</h3>
-                        </li>
-                        <li>
-                            <a href="https://honkaiimpact3.hoyoverse.com/global/en-us/fab" class="footer-link">Honkai Impact
-                                3rd</a>
-                        </li>
-                        <li>
-                            <a href="https://zenless.hoyoverse.com/ua?&utm_source=ua&utm_medium=google&utm_campaign=ZZZ-EU-PC-1-new-search-brand-20240704-Pixel_Exact_Match&hoyotrace_channel=ga_channel&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595j4xDryTG3C-jAJFcO9-X-mw2B3enHRwwioM3G9h0sYSUZOOutVaCEaAlMkEALw_wcB"
-                                class="footer-link">Zenless Zone Zero</a>
-                        </li>
-                        <li>
-                            <a href="https://hsr.hoyoverse.com/ua2?utm_source=EU_google_EU_search_UA2_brand&hoyotrace_channel=ga_channel&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595gbkAWluO5CkqGPqe5uUaV1IN3pkYMjJ0sqyF0lU5y9dFxhmEUTWVEaAtZMEALw_wcB"
-                                class="footer-link">Honkai StarRail</a>
-                        </li>
-        
-                    </ul>
-        
-                    <div id="footer_subscribe">
-                        <h3 class="textlist">Garden Newsletter</h3>
-                        <p class="textlist">
-                            Sign up to hear about exclusive offers, new products & more.
-                        </p>
-        
-                        <div id="input_group">
-                            <input type="email" id="email">
-                            <span id="email2-error"></span>
-                            <button>
-                                <i class="fa-solid fa-envelope" onclick="alert('Thank you for your subscription')"></i>
-                            </button>
-        
-                        </div>
-        
-                    </div>
-        
+        <!--Footer-->
+        <div id="footer_content">
+            <div id="footer_contents">
+                <a href="./index.html"><img src="./src/images/logo.png" alt="logo"></a>
+            </div>
+
+            <ul class="footer_list">
+                <li>
+                    <h3 class="textlist">Flower Shop</h3>
+                </li>
+                <li>
+                    <a href="./whoarewe.html" class="footer-link">Who are we?</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="footer-link">Contact Us</a>
+                </li>
+                <li>
+                    <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer_list">
+                <li>
+                    <h3 class="textlist">Shop</h3>
+                </li>
+                <li>
+                    <a href="./products.html" class="footer-link">Our Products</a>
+                </li>
+                <li>
+                    <a href="./stores.html" class="footer-link">Our Stores</a>
+                </li>
+
+
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3 class="textlist">Garden Newsletter</h3>
+                <p class="textlist">
+                    Sign up to hear about exclusive offers, new products & more.
+                </p>
+
+                <div id="input_group">
+                    <input type="email" placeholder="Enter Email" id="sub-email" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                    <button>
+                        <i class="fa-solid fa-envelope" onclick="return validateForm()"></i>
+
+                    </button>
+                    <span id="submit-error"></span>
+
                 </div>
-        
-                <div id="footer_copyright">
-                    &#169
-                    2024 website for academic proposes only, vanessa tamboril
-                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            All Rights Reserved.
+        </div>
     </footer>
-    </body>
+    <!--Footer end-->
+    <!--JS Nav Bar All pages Student x23358297-->
+    <script src="./src/JS/mobile-nav-js.js"></script>
+
+    <!--JS Student x23358297 - Bruna Rodrigues de Oliveira-->
+    <script src="./src/JS/index.js"></script>
+</body>
+
 </html>
