@@ -3,11 +3,19 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
+  
 }
 
-
+.carousel-outer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
 .carousel {
   margin-bottom: 4rem;
+  width: 1300px;
 }
 
 .carousel_caption {
@@ -49,6 +57,9 @@ body {
 
 }
 
+.row h2{
+  color: #cf3e4d;
+}
 
 .featurette-divider {
   margin: 5rem 0; 

@@ -29,3 +29,5 @@ function validateForm(){
     setTimeout(function(){submitError.style.display = "none";}, 0.1);
 
  }
+
+ 
