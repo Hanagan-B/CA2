@@ -109,6 +109,25 @@ li a.topping:hover {
   justify-content: center;
   
 }
+.buy-now {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: none;  
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none
+}
+
+.content {
+  height: 2000px; 
+}
+<!--Btn bay here with JS Student x23342617 -Vanessa Araujo Tamboril -->
 /*footer*/
 footer {
   width: 100%;
