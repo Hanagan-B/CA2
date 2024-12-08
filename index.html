@@ -145,27 +145,27 @@
         </div>
         <!--Carousel indicators-->
     </div>
-    <!--Container for marketing section - made with Bootstrap-->
+    <!--Container for marketing section -->
     <div class="container marketing">
 
 
-        <div class="row">
-            <div class="col-lg-4">
+        <div class="row" >
+            <div class="col-lg-4" id="panel1">
 
-                <img class="bd-placeholder-img rounded-circle" src="./src/images/Bouquet.jpg" alt="bouquet">
+                <img class="bd-placeholder-img rounded-circle"  src="./src/images/Bouquet.jpg" alt="bouquet">
                 <h2 class="fw-normal">Bouquetes</h2>
                 <p>Fresh flowers every day delivered to you. Choose between our extensive range of bouquets. We have
                     flowers for any ocasion. </p>
                 <p><a class="btn btn-secondary" href="./products.html">View more</a></p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="panel2">
                 <img class="bd-placeholder-img rounded-circle" src="./src/images/Bouquet2.jpg" alt="bouquet">
                 <h2 class="fw-normal">Winter</h2>
                 <p>Shop by season. We have a special range of winter flowers. Inluding irish blooms that are unique to
                     the season</p>
                 <p><a class="btn btn-secondary" href="./products.html">View more</a></p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="panel3">
                 <img class="bd-placeholder-img rounded-circle" src="./src/images/bridebouquet.jpg" alt="bride flowers">
                 <h2 class="fw-normal">Bride's Collection</h2>
                 <p>The finest variety of flowers to make your wedding unforgettable. Featuring Roses, Peonies, Lilies,
@@ -206,8 +206,8 @@
         </div>
 
         <hr class="featurette-divider">
-</div>
-    <!--Container for marketing section end - made with Bootstrap-->
+    </div>
+    <!--Container for marketing section end -->
 
     <footer>
         <!--Footer-->
@@ -286,9 +286,15 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <!--JS JQuery
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./src/JS/button.js"></script>-->
+    <!--JS JQuery Student x23358297 - Bruna Rodrigues de Oliveira-->
+    <script src="./src/JS/jquery-3.7.1.js"></script>
+    <script>
+        $(function() {
+            $("#panel1").fadeOut(300).delay(1000).fadeIn(800);
+            $("#panel2").fadeOut(400).delay(1000).fadeIn(900);
+            $("#panel3").fadeOut(500).delay(1000).fadeIn(1000);
+        });
+    </script>
 
 
     
