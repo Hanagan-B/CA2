@@ -1,81 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Student x23350822 - Raimunda Rosimere do Nascimento-->
+<!-- Student x23350822 - Raimunda Rosimere do Nascimento -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
-    <!--CSS font-awesome - for icons-->
+    <!-- CSS font-awesome - for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
-
-    <!--CSS all pages-->
+    <!-- CSS all pages -->
     <link rel="stylesheet" href="./src/css/style.css">
-    <!--CSS Student x23350822 - Raimunda Rosimere do Nascimento-->
+    <!-- CSS Student x23350822 -->
     <link rel="stylesheet" href="/src/css/style_rose.css">
-
-
 </head>
 
 <body>
     <header>
-        <!--Nav bar top-->
+        <!-- Nav bar top -->
         <div class="top">
             <nav>
                 <a class="logo" href="/index.html">Garden to Home</a>
                 <ul class="navbars">
-
                     <li class="litop"><a href="./index.html" class="topping">Home</a></li>
                     <li class="litop"><a href="./products.html" class="topping">Our Products</a></li>
                     <li class="litop"><a href="./contact.html" class="topping">Contact us</a></li>
                     <li class="litop"><a href="./whoarewe.html" class="topping">Who are we?</a></li>
                     <li class="litop"><a href="./stores.html" class="topping">Stores</a></li>
                     <li class="litop"><a href="./feedback.html" class="topping">Feedback</a></li>
-
-
                 </ul>
-                <button id="mobile-btn"> <!--mobile button-->
+                <button id="mobile-btn">
+                    <!-- mobile button -->
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </nav>
         </div>
 
-
-
         <div id="mobile-menu">
             <ul id="mobile-nav-list">
                 <li class="nav-item">
-                    <a href="./index.html"></span></a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./products.html"> Our products </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="./contact.html"> Contact Us </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="./whoAreWe.html"> Who are we </a>
+                    <a href="./products.html">Our products</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./stores.html"> Stores </a>
+                    <a href="./contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./feedback.html"> Feedback </a>
+                    <a href="./whoAreWe.html">Who are we</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./stores.html">Stores</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./feedback.html">Feedback</a>
                 </li>
             </ul>
-
         </div>
-        <!--Nav bar top end-->
+        <!-- Nav bar top end -->
         <h2>Feedback</h2>
     </header>
+
     <main>
         <form id="feedbackForm">
-            <label for="rating">Rating:</label>
+            <p>Rating:</p>
             <div id="starRating">
                 <span data-value="1">☆</span>
                 <span data-value="2">☆</span>
@@ -83,7 +74,7 @@
                 <span data-value="4">☆</span>
                 <span data-value="5">☆</span>
             </div>
-            <input type="hidden" id="rating" name="rating" required>
+            <input type="hidden" id="rating" name="rating">
 
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here"></textarea>
@@ -91,10 +82,8 @@
             <button type="submit">Submit Feedback</button>
         </form>
 
-
         <section id="feedbackDisplay">
             <h2>Feedback Rating</h2>
-
             <!-- Static Feedback 1 -->
             <div class="feedback">
                 <div class="stars">★★★★★</div>
@@ -113,81 +102,62 @@
                 <p>Good quality flowers, but the bouquet size was smaller than expected.</p>
             </div>
         </section>
-
-        <!-- Feedback submissions will appear here -->
-        </section>
     </main>
-    <!--Footer-->
-    <div id="footer_content">
-        <div id="footer_contents">
-            <a href="./index.html"><img src="./src/images/logo.png" alt="logo"></a>
-        </div>
 
-        <ul class="footer_list">
-            <li>
-                <h3 class="textlist">Flower Shop</h3>
-            </li>
-            <li>
-                <a href="./whoarewe.html" class="footer-link">Who are we?</a>
-            </li>
-            <li>
-                <a href="./contact.html" class="footer-link">Contact Us</a>
-            </li>
-            <li>
-                <a href="./feedback.html" class="footer-link">Costumers Feedback</a>
-            </li>
-
-        </ul>
-
-        <ul class="footer_list">
-            <li>
-                <h3 class="textlist">Shop</h3>
-            </li>
-            <li>
-                <a href="./products.html" class="footer-link">Our Products</a>
-            </li>
-            <li>
-                <a href="./stores.html" class="footer-link">Our Stores</a>
-            </li>
-
-
-        </ul>
-
-        <div id="footer_subscribe">
-            <h3 class="textlist">Garden Newsletter</h3>
-            <p class="textlist">
-                Sign up to hear about exclusive offers, new products & more.
-            </p>
-
-            <div id="input_group">
-                <input type="email" placeholder="Enter Email" id="sub-email" onkeyup="validateEmail()">
-                <span id="email-error"></span>
-                <button>
-                    <i class="fa-solid fa-envelope" onclick="return validateForm()"></i>
-
-                </button>
-                <span id="submit-error"></span>
-
+    <!-- Footer -->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contents">
+                <a href="./index.html"><img src="./src/images/logo.png" alt="logo"></a>
             </div>
-
+            <ul class="footer_list">
+                <li>
+                    <h3 class="textlist">Flower Shop</h3>
+                </li>
+                <li>
+                    <a href="./whoarewe.html" class="footer-link">Who are we?</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="footer-link">Contact Us</a>
+                </li>
+                <li>
+                    <a href="./feedback.html" class="footer-link">Customers Feedback</a>
+                </li>
+            </ul>
+            <ul class="footer_list">
+                <li>
+                    <h3 class="textlist">Shop</h3>
+                </li>
+                <li>
+                    <a href="./products.html" class="footer-link">Our Products</a>
+                </li>
+                <li>
+                    <a href="./stores.html" class="footer-link">Our Stores</a>
+                </li>
+            </ul>
+            <div id="footer_subscribe">
+                <h3 class="textlist">Garden Newsletter</h3>
+                <p class="textlist">
+                    Sign up to hear about exclusive offers, new products & more.
+                </p>
+                <div id="input_group">
+                    <input type="email" placeholder="Enter Email" id="sub-email" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                    <button onclick="return validateForm()">
+                        <i class="fa-solid fa-envelope"></i>
+                    </button>
+                    <span id="submit-error"></span>
+                </div>
+            </div>
         </div>
-
-    </div>
-
-    <div id="footer_copyright">
-        &#169
-        All Rights Reserved.
-    </div>
+        <div id="footer_copyright">
+            &#169; All Rights Reserved.
+        </div>
     </footer>
-    <!--Footer end-->
 
-    <!--JS Nav Bar All pages Student x23358297-->
+    <!-- JS Scripts -->
     <script src="./src/JS/mobile-nav-js.js"></script>
-
-    <!--JS Student x23358297 - Bruna Rodrigues de Oliveira-->
     <script src="./src/JS/index.js"></script>
-
-    <!--JS Student x23350822 - Raimunda Rosimere do Nascimento-->
     <script src="/src/JS/scripts_rose.js"></script>
 </body>
 
