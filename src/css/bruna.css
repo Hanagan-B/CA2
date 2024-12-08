@@ -6,13 +6,7 @@ body {
   
 }
 
-.carousel-outer{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-}
+
 .carousel {
   margin-bottom: 4rem;
   width: 1300px;
@@ -25,10 +19,11 @@ body {
 
 
 .carousel-item {
-  height: 40rem;
+  max-height: 40rem;
 }
 .carousel-item img{
-  height: 100%;
+  width: 100%;
+  height: 30rem;
 }
 
 
@@ -136,7 +131,7 @@ Section{
 }
 .about .row .video-container video{
   width: 100%;
-  border: .5rem, solid;
+  border: .5rem solid;
   border-radius: .5rem;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
   height: 100%;
@@ -174,7 +169,6 @@ Section{
 @media (min-width: 40em) {
 
   
-
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -198,6 +192,31 @@ Section{
 @media (max-width: 768px){
 html{
   font-size: 55%;
+}
+.carousel {
+ 
+  width: 100%;
+}
+
+.carousel_caption {
+  bottom: 2rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  max-height: 30rem;
+}
+.carousel-item img{
+  width: 100%;
+  height: 20rem;
+}
+.marketing .row a{
+ margin: 0;
+}
+.featurette img{
+  width: 80%;
+  height: 30rem;
 }
 .section{
   padding: 2rem;

@@ -1,4 +1,4 @@
-// Shout-out to Ken Burns
+/*/ Shout-out to Ken Burns
 
 (function($){
 
@@ -117,4 +117,4 @@
       }
     };
     
-    }( jQuery ));
+    }( jQuery ));*/
